@@ -4,19 +4,20 @@
 
 <section class="relative py-10 overflow-x-hidden">
 
-  <div class="relative p-7 pl-14">
-    <h1 class="text-6xl leading-12 font-bold">Fidi<br>Hartato</h1>
+  <div class="relative px-7 pt-7 pl-14">
+    <h1 class="text-6xl leading-12 font-bold">FIDI<br>HARTATO</h1>
     <p class="text-sm mt-2">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nobis eum rerum corrupti assumenda ex dignissimos commodi magni quas similique.
     </p>
     
     <!--cta-->
-    <button
-      class="py-2 px-5 mt-5 font-bold text-sm bg-sky-950 text-slate-50 rounded-xl"
-      >Tentang saya</button>
+    <a
+      href="#tentang"
+      class="py-2 block w-fit px-4 mt-4 font-bold text-sm bg-sky-950 text-slate-50 rounded-xl"
+      >Tentang saya</a>
     
     <!--hiasan-->
-    <div class="w-4 h-32 bg-sky-950 absolute left-0 top-5 rounded-r-xl"></div>
+    <div class="w-4 h-32 bg-sky-950 absolute left-0 top-3 rounded-r-xl"></div>
   </div>
 
   <picture class="w-screen h-72 block relative">
