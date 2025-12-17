@@ -1,35 +1,33 @@
 @import 'tailwindcss';
 
-*{
-  box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
-html{
-  @apply bg-slate-50 text-slate-900
+html {
+	@apply bg-slate-50 text-slate-900;
 }
 
-body{
-  font-family: "CourierPrime";
+body {
+	font-family: 'CourierPrime';
 }
 
 @font-face {
-  font-family: 'CourierPrime';
-  src: url('/Courier_Prime/CourierPrime-Regular.ttf');
-  font-weight: 400;
-  font-display: swap;
+	font-family: 'CourierPrime';
+	src: url('/Courier_Prime/CourierPrime-Regular.ttf');
+	font-weight: 400;
+	font-display: swap;
 }
 @font-face {
-  font-family: 'CourierPrime';
-  src: url('/Courier_Prime/CourierPrime-Bold.ttf');
-  font-weight: 800;
-  font-display: swap;
+	font-family: 'CourierPrime';
+	src: url('/Courier_Prime/CourierPrime-Bold.ttf');
+	font-weight: 800;
+	font-display: swap;
 }
 @font-face {
-  font-family: 'CourierPrime';
-  src: url('/Courier_Prime/CourierPrime-Italic.ttf');
-  font-weight: 800;
-  font-display: swap;
-  font-style: italic;
+	font-family: 'CourierPrime';
+	src: url('/Courier_Prime/CourierPrime-Italic.ttf');
+	font-weight: 800;
+	font-display: swap;
+	font-style: italic;
 }
-
-

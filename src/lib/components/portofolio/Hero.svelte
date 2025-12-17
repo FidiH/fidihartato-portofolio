@@ -1,35 +1,30 @@
 <script>
-  import photo_profile from "$lib/assets/pp.png"
+	import photo_profile from '$lib/assets/pp.png';
 </script>
 
-<section class="relative py-10 overflow-x-hidden">
+<section class="relative overflow-x-hidden py-10">
+	<div class="relative px-7 pt-7 pl-14">
+		<h1 class="text-6xl leading-12 font-bold">FIDI<br />HARTATO</h1>
+		<p class="mt-2 text-sm">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nobis eum rerum corrupti
+			assumenda ex dignissimos commodi magni quas similique.
+		</p>
 
-  <div class="relative px-7 pt-7 pl-14">
-    <h1 class="text-6xl leading-12 font-bold">FIDI<br>HARTATO</h1>
-    <p class="text-sm mt-2">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nobis eum rerum corrupti assumenda ex dignissimos commodi magni quas similique.
-    </p>
-    
-    <!--cta-->
-    <a
-      href="#tentang"
-      class="py-2 block w-fit px-4 mt-4 font-bold text-sm bg-sky-950 text-slate-50 rounded-xl"
-      >Tentang saya</a>
-    
-    <!--hiasan-->
-    <div class="w-4 h-32 bg-sky-950 absolute left-0 top-3 rounded-r-xl"></div>
-  </div>
+		<!--cta-->
+		<a
+			href="#tentang"
+			class="mt-4 block w-fit rounded-xl bg-sky-950 px-4 py-2 text-sm font-bold text-slate-50"
+			>Tentang saya</a
+		>
 
-  <picture class="w-screen h-72 block relative">
-    <!--gambar utama-->
-    <img
-    src={photo_profile}
-    alt=""
-    class="absolute grayscale -right-10 bottom-0 w-72"
-    />
-    <!--hiasan bawah gambar-->
-  <div class="absolute bottom-0 right-0 w-[90%] h-20 bg-sky-950 rounded-l-xl -z-10"></div>
-</picture>
+		<!--hiasan-->
+		<div class="absolute top-3 left-0 h-32 w-4 rounded-r-xl bg-sky-950"></div>
+	</div>
 
-
+	<picture class="relative block h-72 w-screen">
+		<!--gambar utama-->
+		<img src={photo_profile} alt="" class="absolute -right-10 bottom-0 w-72 grayscale" />
+		<!--hiasan bawah gambar-->
+		<div class="absolute right-0 bottom-0 -z-10 h-20 w-[90%] rounded-l-xl bg-sky-950"></div>
+	</picture>
 </section>

@@ -1,3 +1,3 @@
 <header class="fixed w-screen">
-  <button class="leading-4 font-semibold absolute right-5 top-3 text-sm">-NAVI<br>GASI-</button>
+	<button class="absolute top-3 right-5 text-sm leading-4 font-semibold">-NAVI<br />GASI-</button>
 </header>
