@@ -33,10 +33,11 @@
 		</article>
 	</div>
 
-	<picture class="relative block h-72 w-screen">
+	<picture class="relative flex justify-center block h-72 w-screen">
 		<!--gambar utama-->
 		<img src={photo_profile} alt="" class="absolute bottom-0 w-72 grayscale" />
 		<!--hiasan bawah gambar-->
-		<div class="absolute top-5 left-5 -z-10 h-58 w-58 rounded-full bg-sky-950"></div>
+		<div class="absolute top-5 -z-10 h-58 w-58 rounded-full bg-sky-950"></div>
+		<div class="absolute -bottom-0 w-full h-8 bg-gradient-to-b from-transparent to-slate-50"></div>
 	</picture>
 </section>
