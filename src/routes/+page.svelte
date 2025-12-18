@@ -3,6 +3,7 @@
   import Header from "@portofolio/Header.svelte"
   import Tentang from "@portofolio/Section_Tentang.svelte"
   import Skills from "@portofolio/Section_Skills.svelte"
+  import Project from "@portofolio/Section_Project.svelte"
   import Footer from "@portofolio/Footer.svelte"
   
   
@@ -12,4 +13,5 @@
 <Hero></Hero>
 <Tentang></Tentang>
 <Skills></Skills>
+<Project></Project>
 <Footer></Footer>
