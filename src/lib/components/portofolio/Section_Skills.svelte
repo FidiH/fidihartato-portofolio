@@ -36,8 +36,8 @@
   <h2 class="text-3xl font-bold py-5">Keahlihan <br>Dasar</h2>
 
   {#each skills as skl}
-  <div class="w-full mt-7">
-    <p >{skl.skill}|{skl.present}%</p>
+  <div class="w-full mt-7 sticky top-5 ">
+    <p class="bg-slate-50">{skl.skill}|{skl.present}%</p>
 
     <div class="relative h-8 flex mt-1 items-center">
       <div class="absolute bg-sky-950 rounded-full p-2 ">

@@ -22,7 +22,7 @@
 
 </script>
 
-<section class="p-7">
+<section class="p-7 pt-14">
 
   <h2 class="font-bold text-3xl">Projek <br>Sederhana</h2>
 

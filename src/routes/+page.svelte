@@ -12,6 +12,6 @@
 <Header></Header>
 <Hero></Hero>
 <Tentang></Tentang>
-<Skills></Skills>
 <Project></Project>
+<Skills></Skills>
 <Footer></Footer>
