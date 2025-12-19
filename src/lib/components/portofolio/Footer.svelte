@@ -31,7 +31,7 @@
     <h3>Mari Terhubung</h3>
     <div class="mt-5 flex gap-3 text-sm">
       {#each links as link}
-      <a href="">
+      <a href="" class="hover:translate-y-2">
         <svelte:component this={icons[link.icon]}/>
         {link.app}
       </a>

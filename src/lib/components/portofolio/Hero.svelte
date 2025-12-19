@@ -13,7 +13,7 @@
 		<!--cta-->
 		<a
 			href="#tentang"
-			class="mt-4 block w-fit rounded-xl bg-sky-950 px-4 py-2 text-sm font-bold text-slate-50"
+			class="mt-4 block w-fit rounded-xl bg-sky-950 py-2 px-3 text-sm font-bold cursor-pointer text-slate-50 z-30 transition-all absolute hover:translate-y-2"
 			>Tentang saya</a
 		>
 
@@ -21,10 +21,10 @@
 		<div class="absolute top-3 left-0 h-32 w-4 rounded-r-xl bg-sky-950"></div>
 	</div>
 
-	<picture class="relative block h-72 w-screen">
+	<picture class="relative block h-96 w-screen">
 		<!--gambar utama-->
-		<img src={photo_profile} alt="" class="absolute -right-10 bottom-0 w-72 grayscale" />
+		<img src={photo_profile} alt="" class="peer absolute -right-10 bottom-0 w-80 grayscale transition-all" />
 		<!--hiasan bawah gambar-->
-		<div class="absolute right-0 bottom-0 -z-10 h-20 w-[90%] rounded-l-xl bg-sky-950"></div>
+		<div class="absolute right-0 bottom-0 -z-10 h-16 w-[90%] rounded-l-xl bg-sky-950 peer-hover:h-20"></div>
 	</picture>
 </section>

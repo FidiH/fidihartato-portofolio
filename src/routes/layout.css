@@ -2,10 +2,11 @@
 
 * {
 	box-sizing: border-box;
+	@apply transition-all;
 }
 
 html {
-	@apply bg-slate-50 text-slate-900;
+	@apply bg-slate-50 text-slate-900 ;
 }
 
 body {

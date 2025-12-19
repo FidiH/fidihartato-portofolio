@@ -30,11 +30,13 @@
 
     {#each projects as project}
     <div class="pb-10 sticky top-10 bg bg-slate-50">
-    <img class="rounded-lg shadow grayscale-50" src={gambar[project.icon]} alt={project.des}>
-    <div>
-      <h3 class="font-semibold text-xl py-2">{project.judul}</h3>
-      <p class="text-sm">{project.des}. <a href="" class="italic underline">lihat>></a></p>
-    </div>
+      <img class="rounded-lg shadow grayscale-50 hover:grayscale-0" src={gambar[project.icon]} alt={project.des}>
+      <div>
+        <h3 class="font-semibold text-xl py-2">{project.judul}</h3>
+        <p class="text-sm">
+          {project.des}. <a href="" class="italic underline">lihat>></a>
+        </p>
+      </div>
     </div>
     {/each}
 
