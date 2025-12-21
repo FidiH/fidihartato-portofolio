@@ -11,7 +11,7 @@ export default defineConfig({
 		// alias path
 		alias: {
 			'@portofolio': path.resolve('./src/lib/components/portofolio'),
-			'@icons': path.resolve('./src/lib/components/icons'),
+			'@icons': path.resolve('./src/lib/components/icons')
 		}
 	}
 });
