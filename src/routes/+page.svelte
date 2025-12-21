@@ -4,7 +4,6 @@
 	import Tentang from '@portofolio/Section_Tentang.svelte';
 	import Skills from '@portofolio/Section_Skills.svelte';
 	import Project from '@portofolio/Section_Project.svelte';
-	import Experience from '@portofolio/Section_Experience.svelte';
 	import Footer from '@portofolio/Footer.svelte';
 </script>
 
@@ -13,5 +12,4 @@
 <Tentang></Tentang>
 <Project></Project>
 <Skills></Skills>
-<Experience></Experience>
 <Footer></Footer>
