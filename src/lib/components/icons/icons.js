@@ -8,6 +8,7 @@ import Js from './js.svelte';
 import Tailwindcss from './tailwindcss.svelte';
 import Svelte from './svelte.svelte';
 import Git from './git.svelte';
+import Hat from './hat.svelte';
 
 export const icons = {
 	Wa,
@@ -19,5 +20,6 @@ export const icons = {
 	Js,
 	Tailwindcss,
 	Svelte,
-	Git
+	Git,
+	Hat
 };

@@ -36,8 +36,9 @@
 		},
 		{
 			skill: 'Desain',
-			present: 50
-		}
+			present: 60,
+			icon: 'Hat'
+		},
 	];
 
 	onMount(() => {
