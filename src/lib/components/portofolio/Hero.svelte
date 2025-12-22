@@ -30,10 +30,12 @@
 <section class="relative h-screen overflow-hidden py-10">
 	<div class="relative px-7 pt-7 pl-14">
 		<div class="text opacity-0">
-			<h1 class="text-6xl leading-12 font-bold">FIDI<br />HARTATO</h1>
+			<h1>
+			  <span class="text-sm">Hai, Saya</span> <br>
+			  <span class="text-6xl leading-12 font-bold">FIDI<br />HARTATO</span>
+			</h1>
 			<p class="mt-2 text-sm">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nobis eum rerum
-				corrupti assumenda ex dignissimos commodi magni quas similique.
+				Hal yang terkadang terlihat besar dan kompleks itu sebenarnya Berawal dari hal yang sangat sederhana yang di kembangkan.
 			</p>
 
 			<!--cta-->
