@@ -7,7 +7,7 @@ function toggleMenu(){
   isMenuOpen = !isMenuOpen
 }
 	
-	let navLinkStyle = "w-fit bg-sky-950 text-slate-50 transition-all hover:invert"
+	let navLinkStyle = "w-fit bg-sky-950 text-slate-50 transition-all hover:bg-slate-50 hover:text-slate-950"
 </script>
 
 <header class="fixed z-50 w-screen">
