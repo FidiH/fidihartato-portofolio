@@ -8,52 +8,47 @@
     // animasi bok projek 
     document.querySelectorAll(".geser-atas").forEach(el => {
       animate(el, {
-        scale: [0,1],
+        opacity: [0,1],
+        duration: 490,
         autoplay: onScroll({
           enter: "bottom 80%",
         })
       })
-      
     })
-    
-    
   })
   
   
 	let projects = [
 		{
-			judul: 'Desain Sederhana',
-			des: 'mengutamakan kebersihan dan keterbacaan dengan sudut pandang apa adanya',
-			icon: 'Desain1'
-		},
-		{
 			judul: 'To Do List Simple',
 			des: 'To Do List sederhana, mengutamakan fungsi dengan lokal penyimpanan',
-			icon: 'Todolist'
+			icon: 'Todolist',
+			link: "https://fidih.github.io/to-do-list-simple/"
 		},
 		{
 			judul: 'LandingPage Nefafi',
 			des: 'desain minimalits dan bersih, tampil dengan keterbacaan',
-			icon: 'Nefafi'
+			icon: 'Nefafi',
+			link: "https://nefafi.pages.dev"
 		}
 	];
 </script>
 
-<section class="p-7 pt-14">
+<section id="projek" class="p-7 pt-14">
 	<h2 class="text-3xl font-bold">Projek <br />Sederhana</h2>
 
 	<div class="relative pt-10">
 		{#each projects as project}
-			<div class="geser-atas bg sticky aspect-[4/5] top-14 bg-slate-50">
+			<div class="group geser-atas bg sticky top-14 bg-slate-50">
 				<img
-					class="rounded-lg shadow grayscale-50 hover:grayscale-0"
+					class="rounded-lg shadow grayscale group-hover:grayscale-0"
 					src={gambar[project.icon]}
 					alt={project.des}
 				/>
-				<div>
+				<div class="mb-14">
 					<h3 class="py-2 text-xl font-semibold">{project.judul}</h3>
 					<p class="text-sm">
-						{project.des}. <a href="" class="italic underline">lihat>></a>
+						{project.des}. <a href={project.link} target="_blank" class="italic underline">lihat>></a>
 					</p>
 				</div>
 			</div>

@@ -1,28 +1,23 @@
 <script>
 	import { onMount } from 'svelte';
-	import { animate, onScroll } from 'animejs';
+	import { animate } from 'animejs';
 
-	import photo_profile from '$lib/assets/pp.png';
+	import photo_profile from '$lib/assets/pp.webp';
 
 	onMount(() => {
 		animate('#foto', {
-			delay: 500,
 			height: '25rem',
-			easing: 'easeOutQuad'
 		});
 		animate('#hiasan1', {
 			width: '1rem',
-			delay: 2000,
-			easing: 'easeOutQuad'
 		});
 		animate('#hiasan2', {
 			width: '90%',
-			easing: 'easeOutQuad'
+			delay: 100,
 		});
 		animate('.text', {
 			opacity: [0, 1],
-			delay: 1000,
-			easing: 'easeOutQuad'
+			duration: 490,
 		});
 	});
 </script>

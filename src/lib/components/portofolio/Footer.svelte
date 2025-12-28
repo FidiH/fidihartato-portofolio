@@ -3,22 +3,22 @@
 	const links = [
 		{
 			app: 'Github',
-			link: '/',
+			link: 'https://github.com/fidih',
 			icon: 'Github'
 		},
 		{
 			app: 'Instagram',
-			link: '/',
+			link: 'https://instagram.com/fidfulcin',
 			icon: 'Ig'
 		},
 		{
 			app: 'Email',
-			link: '/',
+			link: 'mailto:fidihartato.pidi@gmail.com',
 			icon: 'Email'
 		},
 		{
 			app: 'WhatsApp',
-			link: '/',
+			link: 'https://wa.me/6283116293051',
 			icon: 'Wa'
 		}
 	];
@@ -31,7 +31,7 @@
 		<h3>Mari Terhubung</h3>
 		<div class="mt-5 flex gap-3 text-sm">
 			{#each links as link}
-				<a href="/" class="hover:translate-y-2">
+				<a href={link.link} target="_blank" class="hover:translate-y-2">
 					<svelte:component this={icons[link.icon]} />
 					{link.app}
 				</a>

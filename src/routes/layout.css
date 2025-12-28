@@ -5,6 +5,7 @@
 * {
 	box-sizing: border-box;
 	@apply transition-all;
+	scroll-behavior: smooth;
 }
 
 html {

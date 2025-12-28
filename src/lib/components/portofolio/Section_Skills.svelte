@@ -75,13 +75,13 @@
 	});
 </script>
 
-<section class="p-7">
-	<h2 class="py-5 text-3xl font-bold">Keahlihan <br />Dasar</h2>
+<section id="skill" class="p-7">
+	<h2 class="pb-5 text-3xl font-bold">Keahlihan <br />Dasar</h2>
 
 	{#each skills as skl}
 		<div class="box group sticky top-5 mt-4 w-full grayscale-90 hover:grayscale-0">
 			<p
-				class="teks rounded-xl rounded-bl-none bg-slate-50 p-2 group-hover:bg-sky-950 group-hover:text-slate-50"
+				class="teks rounded-xl rounded-bl-none bg-slate-50 p-2 group-hover:bg-sky-950 group-hover:text-slate-50 w-fit"
 			>
 				{skl.skill}|{skl.present}%
 			</p>
