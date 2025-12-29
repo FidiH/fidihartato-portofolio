@@ -1,3 +1,6 @@
+// folder ini hanya untk perantara eksport ke kompomen
+
+// import icons
 import Wa from './wa.svelte';
 import Ig from './ig.svelte';
 import Github from './github.svelte';
@@ -10,6 +13,7 @@ import Svelte from './svelte.svelte';
 import Git from './git.svelte';
 import Hat from './hat.svelte';
 
+// eksport icons dengan rapih
 export const icons = {
 	Wa,
 	Ig,

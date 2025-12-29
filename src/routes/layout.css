@@ -1,7 +1,9 @@
 @import 'tailwindcss';
 
+/* mengaktifkan fitur hover tailwind v4 */
 @custom-variant hover (&:hover);
 
+/* style global */
 * {
 	box-sizing: border-box;
 	@apply transition-all;
@@ -16,6 +18,7 @@ body {
 	font-family: 'CourierPrime';
 }
 
+/* import fonts */
 @font-face {
 	font-family: 'CourierPrime';
 	src: url('/Courier_Prime/CourierPrime-Regular.ttf');

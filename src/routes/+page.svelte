@@ -1,5 +1,6 @@
 <script>
-
+	// import file di folder src/lib/components/portofolio
+	// alias @portofolio
 	import Hero from '@portofolio/Hero.svelte';
 	import Header from '@portofolio/Header.svelte';
 	import Tentang from '@portofolio/Section_Tentang.svelte';
@@ -8,9 +9,12 @@
 	import Footer from '@portofolio/Footer.svelte';
 </script>
 
+<!--komponent yang akan ditampilkan-->
 <Header></Header>
-<Hero></Hero>
-<Tentang></Tentang>
-<Project></Project>
-<Skills></Skills>
+<main>
+	<Hero></Hero>
+	<Tentang></Tentang>
+	<Project></Project>
+	<Skills></Skills>
+</main>
 <Footer></Footer>

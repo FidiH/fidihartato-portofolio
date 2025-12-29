@@ -8,7 +8,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	resolve: {
-		// alias path
+		// alias path untuk manggil file
 		alias: {
 			'@portofolio': path.resolve('./src/lib/components/portofolio'),
 			'@icons': path.resolve('./src/lib/components/icons')

@@ -1,23 +1,35 @@
 <script>
+	// import onMount, js klient
 	import { onMount } from 'svelte';
+
+	// modul animasi
 	import { animate } from 'animejs';
 
+	// import gambar
 	import photo_profile from '$lib/assets/pp.webp';
 
+	// js klient
 	onMount(() => {
+		// animasikan foto kecil ke besar
 		animate('#foto', {
-			height: '25rem',
+			height: '25rem'
 		});
+
+		// geser ke kanan
 		animate('#hiasan1', {
-			translateX: ["-110%", 0],
+			translateX: ['-110%', 0]
 		});
+
+		// geser ke kiri
 		animate('#hiasan2', {
-			translateX: ["150%", 0],
-			delay: 100,
+			translateX: ['150%', 0],
+			delay: 100
 		});
+
+		// muncul secara fade
 		animate('.text', {
 			opacity: [0, 1],
-			duration: 490,
+			duration: 490
 		});
 	});
 </script>
@@ -27,11 +39,13 @@
 		<!--teks utama-->
 		<div class="text opacity-0">
 			<h1>
-			  <span class="text-sm md:text-base">Hai, Saya</span> <br>
-			  <span class="text-6xl leading-12 font-bold">FIDI<br />HARTATO</span>
+				<span class="text-sm md:text-base">Hai, Saya</span> <br />
+				<span class="text-6xl leading-12 font-bold">FIDI<br />HARTATO</span>
 			</h1>
+			<!--teks filosofi-->
 			<p class="mt-2 text-sm md:text-base">
-				Hal yang terkadang terlihat besar dan kompleks itu sebenarnya Berawal dari hal yang sangat sederhana yang di kembangkan.
+				Hal yang terkadang terlihat besar dan kompleks itu sebenarnya Berawal dari hal yang sangat
+				sederhana yang di kembangkan.
 			</p>
 			<!--cta-->
 			<a
@@ -42,7 +56,7 @@
 		</div>
 
 		<!--hiasan-->
-		<div id="hiasan1" class="absolute top-3 left-0 h-32 w-7 rounded-r-xl bg-sky-950 md:"></div>
+		<div id="hiasan1" class="md: absolute top-3 left-0 h-32 w-7 rounded-r-xl bg-sky-950"></div>
 	</div>
 	<picture class="relative block h-96 w-screen">
 		<!--gambar utama-->

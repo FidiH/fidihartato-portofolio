@@ -38,7 +38,7 @@
 			skill: 'Desain',
 			present: 60,
 			icon: 'Hat'
-		},
+		}
 	];
 
 	onMount(() => {
@@ -75,13 +75,13 @@
 	});
 </script>
 
-<section id="skill" class="p-7 md:px-20 md:columns-2">
+<section id="skill" class="p-7 md:columns-2 md:px-20">
 	<h2 class="pb-5 text-3xl font-bold md:p-0">Keahlihan <br />Dasar</h2>
 
 	{#each skills as skl}
 		<div class="box group sticky top-5 mt-4 w-full grayscale-90 hover:grayscale-0">
 			<p
-				class="teks rounded-xl rounded-bl-none bg-slate-50 p-2 group-hover:bg-sky-950 group-hover:text-slate-50 w-fit"
+				class="teks w-fit rounded-xl rounded-bl-none bg-slate-50 p-2 group-hover:bg-sky-950 group-hover:text-slate-50"
 			>
 				{skl.skill}|{skl.present}%
 			</p>
