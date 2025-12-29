@@ -34,10 +34,10 @@
 	];
 </script>
 
-<section id="projek" class="p-7 pt-14">
+<section id="projek" class="p-7 pt-14 md:p-20">
 	<h2 class="text-3xl font-bold">Projek <br />Sederhana</h2>
 
-	<div class="relative pt-10">
+	<div class="relative pt-10 md:columns-2 md:gap-5">
 		{#each projects as project}
 			<div class="group geser-atas bg sticky top-14 bg-slate-50">
 				<img

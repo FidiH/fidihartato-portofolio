@@ -24,7 +24,7 @@
 	];
 </script>
 
-<footer class="w-screen bg-sky-950 p-7 text-slate-50">
+<footer class="w-screen bg-sky-950 p-7 text-slate-50 md:px-20">
 	<h3 class="text-3xl font-bold">FIDI HARTATO</h3>
 
 	<article class="mt-5">

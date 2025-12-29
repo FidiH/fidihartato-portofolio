@@ -8,7 +8,7 @@
 		// animasi teks
 		document.querySelectorAll('.geser').forEach((el) => {
 			animate(el, {
-				translateX: ['-150%', 0],
+				translateX: ['-250%', 0],
 				duration: 490,
 				autoplay: onScroll({
 					enter: 'bottom 85%'
@@ -27,45 +27,38 @@
 	});
 </script>
 
-<section id="tentang" class="container overflow-x-hidden">
-	<h2 class="geser p-7 pb-3 text-3xl font-bold">Tentang <br />Saya</h2>
-
-	<div class="px-7 text-sm">
-		<article class="my-5">
-			<h3 class="geser mb-2 text-lg font-semibold">singkat</h3>
-			<p class="geser pb-2">
-				Saya siswa kelas 11 di smk LPPM RI 2 KEDUNGREJA, mengambil jurusan teknik jaringan komputer dan teknologi, namun saya memilih jurusan tersebut bukan karena minat melainkan karena penasaran pada jaringan.
-			</p>
-			<p class="geser pb-2">
-				Saya adalah seorang Autodidact Learner. Sekitar 95% pengetahuan teknis yang saya miliki saat ini adalah hasil dari eksplorasi mandiri melalui internet, mulai dari membedah video YouTube, membaca artikel teknis, hingga berdiskusi intens dengan AI untuk menyusun modul belajar yang sistematis.
-			</p>
-		</article>
-		<hr class="geser" />
-		<article class="my-5">
-			<h3 class="geser mb-2 text-lg font-semibold">Filosofi Belajar</h3>
-			<p class="geser pb-2">Saya percaya Bagi saya, ilmu itu gratis dan tersebar luas. Batasannya hanyalah seberapa jauh kita mau mencari. Saya tidak hanya mengonsumsi konten, tapi menyaring dan merakitnya menjadi pemahaman yang utuh.
-			</p>
-		</article>
-		<hr class="geser" />
-		<article class="my-5">
-			<h3 class="geser mb-2 text-lg font-semibold">Soft Skills</h3>
-			<p class="geser">
-        Karena terbiasa melakukan hal sendiri mulai dari menyiap modul dan sumber ini membuat saya memilih pola pikir yang terorganisir agar memudahkan proses, Meskipun saya suka belajar sendiri, saya tetep bisa diajak kerja bareng dalam tim.
-			</p>
-		</article>
-	</div>
-
-	<picture class="relative block flex h-72 w-screen justify-center group">
-		<!--gambar utama-->
-		<img
-			src={photo_profile}
-			alt=""
-			class="absolute -z-10 bottom-0 w-72 grayscale group-hover:grayscale-0"
-		/>
-		<!--hiasan bawah gambar-->
-		<div
-			class="hiasan-bola absolute top-5 -z-20 size-1 h-58 w-58 rounded-full bg-sky-950 group-hover:scale-110"
-		></div>
-		<div class="absolute -bottom-0 h-8 w-full bg-gradient-to-b from-transparent to-slate-50"></div>
-	</picture>
+<section id="tentang" class=" px-7  overflow-x-hidden md:p-20 ">
+  
+	<h2 class="geser pb-3 text-3xl font-bold">Tentang <br />Saya</h2>
+	
+  <div class="relative md:flex flex-row-reverse">
+    
+  	<div class="text-sm md:text-base md:px-4">
+  		<article class="my-5">
+  			<h3 class="geser mb-2 text-lg font-semibold">singkat</h3>
+        <p class="geser pb-2">Saya adalah siswa kelas XI SMK LPPM RI 2 Kedungreja, jurusan Teknik Jaringan Komputer dan Telekomunikasi. Awalnya saya memilih jurusan ini karena rasa penasaran terhadap sistem jaringan, bukan karena minat sejak awal.</p>
+        <p class="geser pb-2">Sebagian besar kemampuan teknis saya dikembangkan secara mandiri. Sekitar 95% saya peroleh melalui eksplorasi internet, seperti mempelajari dokumentasi, video teknis, dan menyusun materi belajar sendiri dengan bantuan AI.</p>
+        <p class="geser pb-2">Saya percaya bahwa ilmu bersifat terbuka dan dapat diakses siapa saja. Tantangannya bukan pada ketersediaan informasi, tetapi pada kemampuan menyaring dan merangkainya menjadi pemahaman yang utuh.</p>
+        <p class="geser pb-2">Terbiasa belajar mandiri membuat saya terbiasa berpikir terstruktur dan sistematis. Walaupun sering bekerja sendiri, saya tetap mampu bekerja sama dalam tim.</p>
+  		</article>
+  	</div>
+  	
+  	<picture class="w-screen md:mt-20">
+  	  <div class="relative flex h-72 justify-center w-72 m-auto group">
+  		<!--gambar utama-->
+  		<img
+  			src={photo_profile}
+  			alt="foto"
+  			class="absolute -z-40 bottom-0 w-full grayscale group-hover:grayscale-0"
+  		/>
+  		<!--hiasan bawah gambar-->
+  		<div
+  			class="hiasan-bola absolute top-5 -z-50 size-1 h-58 w-58 rounded-full bg-sky-950 group-hover:scale-110 md:w-[70%] md:h-[70%]"
+  		></div>
+  		<div class="absolute -bottom-0 h-8 w-full bg-gradient-to-b from-transparent to-slate-50"></div>
+  	  </div>
+  	</picture>
+	
+  </div>
+  
 </section>

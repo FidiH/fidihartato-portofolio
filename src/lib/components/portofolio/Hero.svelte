@@ -9,10 +9,10 @@
 			height: '25rem',
 		});
 		animate('#hiasan1', {
-			width: '1rem',
+			translateX: ["-110%", 0],
 		});
 		animate('#hiasan2', {
-			width: '90%',
+			translateX: ["150%", 0],
 			delay: 100,
 		});
 		animate('.text', {
@@ -22,41 +22,40 @@
 	});
 </script>
 
-<section class="relative h-screen overflow-hidden py-10">
-	<div class="relative px-7 pt-7 pl-14">
+<section class="relative overflow-hidden py-10 md:flex">
+	<div class="relative px-7 pt-7 pl-14 md:pl-20">
+		<!--teks utama-->
 		<div class="text opacity-0">
 			<h1>
-			  <span class="text-sm">Hai, Saya</span> <br>
+			  <span class="text-sm md:text-base">Hai, Saya</span> <br>
 			  <span class="text-6xl leading-12 font-bold">FIDI<br />HARTATO</span>
 			</h1>
-			<p class="mt-2 text-sm">
+			<p class="mt-2 text-sm md:text-base">
 				Hal yang terkadang terlihat besar dan kompleks itu sebenarnya Berawal dari hal yang sangat sederhana yang di kembangkan.
 			</p>
-
 			<!--cta-->
 			<a
 				href="#tentang"
-				class="absolute z-30 mt-4 block w-fit cursor-pointer rounded-xl bg-sky-950 px-3 py-2 text-sm font-bold text-slate-50 transition-all hover:translate-y-2"
+				class="absolute z-30 mt-4 block w-fit cursor-pointer rounded-xl bg-sky-950 px-3 py-2 text-sm font-bold text-slate-50 transition-all hover:translate-y-2 md:text-base"
 				>Tentang saya</a
 			>
 		</div>
 
 		<!--hiasan-->
-		<div id="hiasan1" class="absolute top-3 left-0 h-32 w-0 rounded-r-xl bg-sky-950"></div>
+		<div id="hiasan1" class="absolute top-3 left-0 h-32 w-7 rounded-r-xl bg-sky-950 md:"></div>
 	</div>
-
 	<picture class="relative block h-96 w-screen">
 		<!--gambar utama-->
 		<img
 			id="foto"
 			src={photo_profile}
 			alt=""
-			class="peer absolute -right-10 bottom-0 h-0 grayscale transition-all"
+			class="peer absolute -right-10 bottom-0 h-0 grayscale transition-all md:right-10"
 		/>
 		<!--hiasan bawah gambar-->
 		<div
 			id="hiasan2"
-			class="absolute right-0 bottom-0 -z-10 h-16 w-[0%] rounded-l-xl bg-sky-950 peer-hover:h-20"
+			class="absolute right-0 bottom-0 -z-10 h-16 w-[90%] rounded-l-xl bg-sky-950 peer-hover:h-20 md:w-[150%]"
 		></div>
 	</picture>
 </section>
