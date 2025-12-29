@@ -53,6 +53,8 @@
 					loading="lazy"
 					src={gambar[project.icon]}
 					alt={project.des}
+					width="100%"
+					height="100%"
 				/>
 				<div class="mb-14">
 					<h3 class="py-2 text-xl font-semibold">{project.judul}</h3>

@@ -12,7 +12,7 @@
 	onMount(() => {
 		// animasikan foto kecil ke besar
 		animate('#foto', {
-			height: '25rem'
+			translateX: ["300%", 0]
 		});
 
 		// geser ke kanan
@@ -60,13 +60,17 @@
 	</div>
 	<picture class="relative block h-96 w-screen">
 		<!--gambar utama-->
-		<img
-			id="foto"
-			src={photo_profile}
-			alt="foto utama"
-			fetchpreority="high"
-			class="peer absolute -right-10 bottom-0 h-0 grayscale transition-all md:right-10"
-		/>
+ <img
+    id="foto"
+    src={photo_profile}
+    alt="foto utama"
+    fetchpriority="high"
+    width="400"
+    height="500"
+    class="peer grayscale transition-all absolute bottom-0 w-80 -right-10 md:right-10"
+  />
+
+
 		<!--hiasan bawah gambar-->
 		<div
 			id="hiasan2"

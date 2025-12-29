@@ -62,6 +62,8 @@
 				<img
 					src={photo_profile}
 					alt="foto"
+					width="400"
+					height="500"
 					class="absolute bottom-0 -z-40 w-full grayscale group-hover:grayscale-0"
 				/>
 				<!--hiasan bawah gambar-->
