@@ -50,6 +50,7 @@
 			<div class="group geser-atas bg sticky top-14 bg-slate-50">
 				<img
 					class="rounded-lg shadow grayscale group-hover:grayscale-0"
+					loading="lazy"
 					src={gambar[project.icon]}
 					alt={project.des}
 				/>

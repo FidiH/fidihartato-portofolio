@@ -63,7 +63,8 @@
 		<img
 			id="foto"
 			src={photo_profile}
-			alt=""
+			alt="foto utama"
+			fetchpreority="high"
 			class="peer absolute -right-10 bottom-0 h-0 grayscale transition-all md:right-10"
 		/>
 		<!--hiasan bawah gambar-->
