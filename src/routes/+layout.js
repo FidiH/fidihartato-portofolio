@@ -1,2 +1,2 @@
-// jadikan statis 
+// jadikan statis
 export const prerender = true;
