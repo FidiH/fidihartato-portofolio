@@ -27,13 +27,13 @@
 	let projects = [
 		{
 			judul: 'To Do List Simple',
-			des: 'To Do List sederhana, mengutamakan fungsi dengan lokal penyimpanan',
+			des: 'belajar local storage. studi kasus "to do list", dengan konsep Buat, Edit, Selesai, Buang. sesederhana itu. <br> 1. HTML 2.CSS 3.JAVASCRIPT',
 			icon: 'Todolist',
 			link: 'https://fidih.github.io/to-do-list-simple/'
 		},
 		{
 			judul: 'LandingPage Nefafi',
-			des: 'desain minimalits dan bersih, tampil dengan keterbacaan',
+			des: 'Menerapkan hasil pembelajaran dengan praktik seefesien mungkin, studi kasus landing page dengan konsep kesederhana untuk performa yang dioptimalkan <br> 1.sveltekit 2.TailwindCss 3.Vite',
 			icon: 'Nefafi',
 			link: 'https://nefafi.pages.dev'
 		}
@@ -59,8 +59,9 @@
 				<div class="mb-14">
 					<h3 class="py-2 text-xl font-semibold">{project.judul}</h3>
 					<p class="text-sm">
-						{project.des}.
-						<a href={project.link} target="_blank" class="italic underline">lihat>></a>
+						{@html project.des}.
+<br>
+						<a href={project.link} target="_blank" class="italic underline text-right block">lihat>></a>
 					</p>
 				</div>
 			</div>

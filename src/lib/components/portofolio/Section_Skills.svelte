@@ -6,37 +6,37 @@
 	let skills = [
 		{
 			skill: 'HTML',
-			present: 80,
+			present: 70,
 			icon: 'Html'
 		},
 		{
 			skill: 'CSS',
-			present: 75,
+			present: 65,
 			icon: 'Css'
 		},
 		{
 			skill: 'Js',
-			present: 50,
+			present: 40,
 			icon: 'Js'
 		},
 		{
 			skill: 'TailwindCss',
-			present: 65,
+			present: 55,
 			icon: 'Tailwindcss'
 		},
 		{
 			skill: 'Sveltekit',
-			present: 30,
+			present: 20,
 			icon: 'Svelte'
 		},
 		{
 			skill: 'Git',
-			present: 70,
+			present: 60,
 			icon: 'Git'
 		},
 		{
-			skill: 'Desain',
-			present: 60,
+			skill: 'Desain (minimalits)',
+			present: 50,
 			icon: 'Hat'
 		}
 	];
@@ -76,7 +76,7 @@
 </script>
 
 <section id="skill" class="p-7 md:columns-2 md:px-20">
-	<h2 class="pb-5 text-3xl font-bold md:p-0">Keahlihan <br />Dasar</h2>
+	<h2 class="pb-5 text-3xl font-bold md:p-0">Keahlihan <br />Dasar dikembangkan</h2>
 
 	{#each skills as skl}
 		<div class="box group sticky top-5 mt-4 w-full grayscale-90 hover:grayscale-0">

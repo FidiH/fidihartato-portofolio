@@ -39,20 +39,6 @@
 					Telekomunikasi. Awalnya saya memilih jurusan ini karena rasa penasaran terhadap sistem
 					jaringan, bukan karena minat sejak awal.
 				</p>
-				<p class="geser pb-2">
-					Sebagian besar kemampuan teknis saya dikembangkan secara mandiri. Sekitar 95% saya peroleh
-					melalui eksplorasi internet, seperti mempelajari dokumentasi, video teknis, dan menyusun
-					materi belajar sendiri dengan bantuan AI.
-				</p>
-				<p class="geser pb-2">
-					Saya percaya bahwa ilmu bersifat terbuka dan dapat diakses siapa saja. Tantangannya bukan
-					pada ketersediaan informasi, tetapi pada kemampuan menyaring dan merangkainya menjadi
-					pemahaman yang utuh.
-				</p>
-				<p class="geser pb-2">
-					Terbiasa belajar mandiri membuat saya terbiasa berpikir terstruktur dan sistematis.
-					Walaupun sering bekerja sendiri, saya tetap mampu bekerja sama dalam tim.
-				</p>
 			</article>
 		</div>
 
