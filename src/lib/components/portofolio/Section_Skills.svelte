@@ -6,37 +6,37 @@
 	let skills = [
 		{
 			skill: 'HTML',
-			present: 70,
+			paham: "Struktur dasar semantik dan form",
 			icon: 'Html'
 		},
 		{
 			skill: 'CSS',
-			present: 65,
+			paham: "Dasar flexbox",
 			icon: 'Css'
 		},
 		{
 			skill: 'Js',
-			present: 40,
+			paham: "Dasar DOM",
 			icon: 'Js'
 		},
 		{
 			skill: 'TailwindCss',
-			present: 55,
+			paham: "Dasar flexbox",
 			icon: 'Tailwindcss'
 		},
 		{
 			skill: 'Sveltekit',
-			present: 20,
+			paham: "Routing, Component",
 			icon: 'Svelte'
 		},
 		{
 			skill: 'Git',
-			present: 60,
+			paham: "Commit, Add, Merge, Branch",
 			icon: 'Git'
 		},
 		{
 			skill: 'Desain (minimalits)',
-			present: 50,
+			paham: "typographi, shape, element",
 			icon: 'Hat'
 		}
 	];
@@ -63,15 +63,6 @@
 		});
 		//###
 
-		// animasi progress
-		document.querySelectorAll('.progress').forEach((el) => {
-			animate(el, {
-				scaleX: [0, 1],
-				autoplay: onScroll({
-					enter: 'bottom 80%'
-				})
-			});
-		});
 	});
 </script>
 
@@ -79,24 +70,17 @@
 	<h2 class="pb-5 text-3xl font-bold md:p-0">Keahlihan <br />Dasar dikembangkan</h2>
 
 	{#each skills as skl}
-		<div class="box group sticky top-5 mt-4 w-full grayscale-90 hover:grayscale-0">
-			<p
-				class="teks w-fit rounded-xl rounded-bl-none bg-slate-50 p-2 group-hover:bg-sky-950 group-hover:text-slate-50"
-			>
-				{skl.skill}|{skl.present}%
-			</p>
-
-			<div class="box-icon relative mt-1 flex h-8 items-center">
-				<div
-					class="icon absolute z-10 -mt-2 rounded-full bg-sky-950 p-2 group-hover:rounded-t-none"
-				>
-					<svelte:component this={icons[skl.icon]} />
-				</div>
-				<div
-					style="width:{skl.present}%"
-					class="progress my-4 ml-2 h-3 origin-left rounded-xl bg-sky-950"
-				></div>
-			</div>
-		</div>
+  <div class="box flex items-start group bg-sky-950/5 hover:bg-sky-950/20 rounded-lg mt-7">
+    <!--icons-->
+    <div class="p-3 h-full rounded-lg bg-sky-950 group-hover:shadow-xl group-hover:bg-sky-950/50">
+		  <svelte:component this={icons[skl.icon]} />
+    </div>
+    <!--pemahaman-->
+    <p class="pl-4 text-sm p-4">
+      <strong class="text-lg">{skl.skill}</strong><br>
+      {skl.paham}
+    </p>
+  </div>
 	{/each}
 </section>
+

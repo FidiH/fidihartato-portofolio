@@ -7,7 +7,8 @@
 
 <svelte:head>
 	<!--head seperti html-->
-	<title>Fidi hartato portofolio</title>
+	<title>Fidi Hartato | Siswa SMK | Web Learner
+</title>
 	<meta name="description" content="portofolio fidi hartato, eksplore hal dan tampilkan" />
 	<meta
 		name="keywords"

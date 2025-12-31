@@ -43,27 +43,27 @@
 				<span class="text-6xl leading-12 font-bold">FIDI<br />HARTATO</span>
 			</h1>
 			<!--teks filosofi-->
-			<p class="mt-2 text-sm md:text-base">
-				Hal yang terkadang terlihat besar dan kompleks itu sebenarnya Berawal dari hal yang sangat
-				sederhana yang di kembangkan.
+			<p class="my-2 text-sm md:text-base">
+				Saya adalah siswa kelas XI SMK LPPM RI 2 Kedungreja, jurusan Teknik Jaringan Komputer dan
+					Telekomunikasi.
 			</p>
 			<!--cta-->
 			<a
 				href="#tentang"
 				class="absolute z-30 mt-4 block w-fit cursor-pointer rounded-xl bg-sky-950 px-3 py-2 text-sm font-bold text-slate-50 transition-all hover:translate-y-2 md:text-base"
-				>Tentang saya</a
+				>Kenali Saya</a
 			>
 		</div>
 
 		<!--hiasan-->
-		<div id="hiasan1" class="md: absolute top-3 left-0 h-32 w-7 rounded-r-xl bg-sky-950"></div>
+		<div id="hiasan1" class="absolute top-3 left-0 h-32 w-5 md:w-7 rounded-r-xl bg-sky-950"></div>
 	</div>
 	<picture class="relative block h-96 w-screen">
 		<!--gambar utama-->
 		<img
 			id="foto"
 			src={photo_profile}
-			alt="foto utama"
+			alt="Foto profile utama"
 			fetchpriority="high"
 			width="400"
 			height="500"

@@ -27,27 +27,30 @@
 	});
 </script>
 
-<section id="tentang" class=" overflow-x-hidden px-7 md:p-20">
+<section id="tentang" class=" overflow-x-hidden p-7 md:p-20">
 	<h2 class="geser pb-3 text-3xl font-bold">Tentang <br />Saya</h2>
 
 	<div class="relative flex-row-reverse md:flex">
 		<div class="text-sm md:px-4 md:text-base">
-			<article class="my-5">
-				<h3 class="geser mb-2 text-lg font-semibold">singkat</h3>
-				<p class="geser pb-2">
-					Saya adalah siswa kelas XI SMK LPPM RI 2 Kedungreja, jurusan Teknik Jaringan Komputer dan
-					Telekomunikasi. Awalnya saya memilih jurusan ini karena rasa penasaran terhadap sistem
-					jaringan, bukan karena minat sejak awal.
+
+				<p class="geser pb-4">
+					Walaupun saya berasal dari jurusan Teknik Jaringan komputer dan telekomunikasi, saya juga tertarik mengeksplorasi dunia web development dan desain.
 				</p>
-			</article>
+				<p class="geser pb-4">
+					Saya menikmati proses mengubah ide menjadi tampilan baik itu website atau desain yang rapi dan mudah dilihat.
+				</p>
+				<p class="geser pb-4">
+					Melalui berbagai project kecil, saya terus belajar mengembangkan kemampuan dasar tentang web dan desain dengan pendekatan yang sederhana dan fungsional.
+				</p>
+
 		</div>
 
-		<picture class="w-screen md:mt-20">
+		<picture class="w-screen md:mt-5">
 			<div class="group relative m-auto flex h-72 w-72 justify-center">
 				<!--gambar utama-->
 				<img
 					src={photo_profile}
-					alt="foto"
+					alt="foto profile"
 					width="400"
 					height="500"
 					class="absolute bottom-0 -z-40 w-full grayscale group-hover:grayscale-0"

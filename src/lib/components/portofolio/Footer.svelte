@@ -31,9 +31,12 @@
 	<!--judul footer-->
 	<h3 class="text-3xl font-bold">FIDI HARTATO</h3>
 
-	<article class="mt-5">
-		<h3>Mari Terhubung</h3>
-		<div class="mt-5 flex gap-3 text-sm">
+	<div class="mt-5">
+		<p>
+		  <strong >Mari terhubung dan mulai berkolaborasi.</strong> <br>
+Atau sekadar bertukar ide.
+		</p>
+		<div class="mt-7 flex gap-3 text-sm">
 			<!--loop data yang ditampilkan-->
 			{#each links as link}
 				<a href={link.link} target="_blank" class="hover:translate-y-2">
@@ -43,5 +46,7 @@
 				</a>
 			{/each}
 		</div>
-	</article>
+	</div>
+	
+<p class="text-sm mt-14 opacity-80">Dibuat sebagai bagian dari proses belajar | © 2025 Fidi Hartato</p>
 </footer>
