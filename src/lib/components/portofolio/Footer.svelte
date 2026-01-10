@@ -33,8 +33,8 @@
 
 	<div class="mt-5">
 		<p>
-		  <strong >Mari terhubung dan mulai berkolaborasi.</strong> <br>
-Atau sekadar bertukar ide.
+			<strong>Mari terhubung dan mulai berkolaborasi.</strong> <br />
+			Atau sekadar bertukar ide.
 		</p>
 		<div class="mt-7 flex gap-3 text-sm">
 			<!--loop data yang ditampilkan-->
@@ -47,6 +47,8 @@ Atau sekadar bertukar ide.
 			{/each}
 		</div>
 	</div>
-	
-<p class="text-sm mt-14 opacity-80">Dibuat sebagai bagian dari proses belajar | © 2025 Fidi Hartato</p>
+
+	<p class="mt-14 text-sm opacity-80">
+		Dibuat sebagai bagian dari proses belajar | © 2025 Fidi Hartato
+	</p>
 </footer>

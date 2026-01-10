@@ -45,7 +45,7 @@
 			<!--teks filosofi-->
 			<p class="my-2 text-sm md:text-base">
 				Saya adalah siswa kelas XI SMK LPPM RI 2 Kedungreja, jurusan Teknik Jaringan Komputer dan
-					Telekomunikasi.
+				Telekomunikasi.
 			</p>
 			<!--cta-->
 			<a
@@ -56,7 +56,7 @@
 		</div>
 
 		<!--hiasan-->
-		<div id="hiasan1" class="absolute top-3 left-0 h-32 w-5 md:w-7 rounded-r-xl bg-sky-950"></div>
+		<div id="hiasan1" class="absolute top-3 left-0 h-32 w-5 rounded-r-xl bg-sky-950 md:w-7"></div>
 	</div>
 	<picture class="relative block h-96 w-screen">
 		<!--gambar utama-->

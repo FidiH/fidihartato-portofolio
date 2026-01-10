@@ -6,37 +6,37 @@
 	let skills = [
 		{
 			skill: 'HTML',
-			paham: "Struktur dasar semantik dan form",
+			paham: 'Struktur dasar semantik dan form',
 			icon: 'Html'
 		},
 		{
 			skill: 'CSS',
-			paham: "Dasar flexbox",
+			paham: 'Dasar flexbox',
 			icon: 'Css'
 		},
 		{
 			skill: 'Js',
-			paham: "Dasar DOM",
+			paham: 'Dasar DOM',
 			icon: 'Js'
 		},
 		{
 			skill: 'TailwindCss',
-			paham: "Dasar flexbox",
+			paham: 'Dasar flexbox',
 			icon: 'Tailwindcss'
 		},
 		{
 			skill: 'Sveltekit',
-			paham: "Routing, Component",
+			paham: 'Routing, Component',
 			icon: 'Svelte'
 		},
 		{
 			skill: 'Git',
-			paham: "Commit, Add, Merge, Branch",
+			paham: 'Commit, Add, Merge, Branch',
 			icon: 'Git'
 		},
 		{
 			skill: 'Desain (minimalits)',
-			paham: "typographi, shape, element",
+			paham: 'typographi, shape, element',
 			icon: 'Hat'
 		}
 	];
@@ -62,7 +62,6 @@
 			//#####
 		});
 		//###
-
 	});
 </script>
 
@@ -70,17 +69,16 @@
 	<h2 class="pb-5 text-3xl font-bold md:p-0">Keahlihan <br />Dasar dikembangkan</h2>
 
 	{#each skills as skl}
-  <div class="box flex items-start group bg-sky-950/5 hover:bg-sky-950/20 rounded-lg mt-7">
-    <!--icons-->
-    <div class="p-3 h-full rounded-lg bg-sky-950 group-hover:shadow-xl group-hover:bg-sky-950/50">
-		  <svelte:component this={icons[skl.icon]} />
-    </div>
-    <!--pemahaman-->
-    <p class="pl-4 text-sm p-4">
-      <strong class="text-lg">{skl.skill}</strong><br>
-      {skl.paham}
-    </p>
-  </div>
+		<div class="box group mt-7 flex items-start rounded-lg bg-sky-950/5 hover:bg-sky-950/20">
+			<!--icons-->
+			<div class="h-full rounded-lg bg-sky-950 p-3 group-hover:bg-sky-950/50 group-hover:shadow-xl">
+				<svelte:component this={icons[skl.icon]} />
+			</div>
+			<!--pemahaman-->
+			<p class="p-4 pl-4 text-sm">
+				<strong class="text-lg">{skl.skill}</strong><br />
+				{skl.paham}
+			</p>
+		</div>
 	{/each}
 </section>
-

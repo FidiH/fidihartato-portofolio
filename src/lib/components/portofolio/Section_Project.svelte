@@ -58,10 +58,14 @@
 				/>
 				<div class="mb-14">
 					<h3 class="pt-5 pb-2 text-xl font-semibold">{project.judul}</h3>
-					<p class="text-sm relative">
+					<p class="relative text-sm">
 						{@html project.des}.
-<br>
-						<a href={project.link} target="_blank" class="italic underline absolute mt-5 right-0 text-right block">lihat>></a>
+						<br />
+						<a
+							href={project.link}
+							target="_blank"
+							class="absolute right-0 mt-5 block text-right italic underline">lihat>></a
+						>
 					</p>
 				</div>
 			</div>

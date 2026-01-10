@@ -32,17 +32,18 @@
 
 	<div class="relative flex-row-reverse md:flex">
 		<div class="text-sm md:px-4 md:text-base">
-
-				<p class="geser pb-4">
-					Walaupun saya berasal dari jurusan Teknik Jaringan komputer dan telekomunikasi, saya juga tertarik mengeksplorasi dunia web development dan desain.
-				</p>
-				<p class="geser pb-4">
-					Saya menikmati proses mengubah ide menjadi tampilan baik itu website atau desain yang rapi dan mudah dilihat.
-				</p>
-				<p class="geser pb-4">
-					Melalui berbagai project kecil, saya terus belajar mengembangkan kemampuan dasar tentang web dan desain dengan pendekatan yang sederhana dan fungsional.
-				</p>
-
+			<p class="geser pb-4">
+				Walaupun saya berasal dari jurusan Teknik Jaringan komputer dan telekomunikasi, saya juga
+				tertarik mengeksplorasi dunia web development dan desain.
+			</p>
+			<p class="geser pb-4">
+				Saya menikmati proses mengubah ide menjadi tampilan baik itu website atau desain yang rapi
+				dan mudah dilihat.
+			</p>
+			<p class="geser pb-4">
+				Melalui berbagai project kecil, saya terus belajar mengembangkan kemampuan dasar tentang web
+				dan desain dengan pendekatan yang sederhana dan fungsional.
+			</p>
 		</div>
 
 		<picture class="w-screen md:mt-5">
